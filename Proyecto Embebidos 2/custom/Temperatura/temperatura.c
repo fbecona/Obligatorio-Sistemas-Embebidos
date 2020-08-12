@@ -152,9 +152,6 @@ void procesarDato(){
     else{
         sprintf(txt, "%i %s %s \n", DISP_IdGet(), tiempoCadena, medidaCadena);     
     }
-    
-    
-    
 }
 
 /** 
