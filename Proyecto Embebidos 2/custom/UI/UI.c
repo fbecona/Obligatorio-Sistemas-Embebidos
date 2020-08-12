@@ -51,10 +51,10 @@ void UI_menuTask( void* p_param ) {
             switch( s_state_menuTask ) {
                 case UI_MENU_STATE_MAIN:
                     vTaskDelay(pdMS_TO_TICKS(2000));
-                    USB_sendS("\nMENÚ PRINCIPAL:\n");
+                    USB_sendS("\nMENÃš PRINCIPAL:\n");
                     USB_sendS("1_ Setear id del dispositivo\n");
                     USB_sendS("2_ Setear umbral de temperatura\n");
-                    USB_sendS("3_ Setear número para envío de mensajes\n");
+                    USB_sendS("3_ Setear nÃºmero para envÃ­o de mensajes\n");
                     USB_sendS("4_ Revisar log de datos\n");
                     USB_sendS("5_ Eliminar log de datos\n\n");
                     s_state_menuTask = UI_MENU_STATE_WAIT_INPUT;
@@ -111,13 +111,13 @@ void UI_menuTask( void* p_param ) {
                             break;
                             // </editor-fold> 
                             
-                            // <editor-fold defaultstate="collapsed" desc="Setear número para envío de mensajes">
+                            // <editor-fold defaultstate="collapsed" desc="Setear nÃºmero para envÃ­o de mensajes">
                         case '3':
                             do {                                
-                                USB_sendS("El número actual es : ");
+                                USB_sendS("El nÃºmero actual es : ");
                                 USB_sendS(DISP_TelefonoGet());
                                 USB_sendS("\n");
-                                USB_sendS("Ingrese número de teléfono: ");
+                                USB_sendS("Ingrese nÃºmero de telÃ©fono: ");
                                 USB_receive(inputBuffer, sizeof (inputBuffer));
                                 auxInt = atoi(inputBuffer);
                                 
@@ -129,7 +129,7 @@ void UI_menuTask( void* p_param ) {
                             }while(!dataValid);
                             DISP_TelefonoSet(inputBuffer);
                             USB_sendS(screen_clear);
-                            USB_sendS("Número de teléfono configurado exitosamente\n");
+                            USB_sendS("NÃºmero de telÃ©fono configurado exitosamente\n");
                             s_state_menuTask = UI_MENU_STATE_MAIN;
                             break;
                             // </editor-fold>
@@ -167,7 +167,7 @@ void UI_menuTask( void* p_param ) {
                             // <editor-fold defaultstate="collapsed" desc="Eliminar dato de log">
                         case '5':
                             do {
-                                USB_sendS("Ingrese número de dato: \n");
+                                USB_sendS("Ingrese nÃºmero de dato: \n");
                                 USB_receive(inputBuffer, sizeof (inputBuffer));
                                 auxInt = atoi(inputBuffer)-1;
                                 dataValid = true;
@@ -198,7 +198,6 @@ void UI_menuTask( void* p_param ) {
         }
     }
 }
-
 
 // </editor-fold>
 
