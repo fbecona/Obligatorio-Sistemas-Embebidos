@@ -1,0 +1,22 @@
+build/default/production/custom/Temperatura/temperatura.o:  \
+ custom/Temperatura/temperatura.c  \
+ custom/Temperatura/../../freeRTOS/include/FreeRTOS.h  \
+ custom/Temperatura/../../freeRTOS/include/../../FreeRTOSConfig.h  \
+ custom/Temperatura/../../freeRTOS/include/projdefs.h  \
+ custom/Temperatura/../../freeRTOS/include/portable.h  \
+ custom/Temperatura/../../freeRTOS/include/deprecated_definitions.h  \
+ freeRTOS/portable/MPLAB/PIC32MM/portmacro.h  \
+ custom/Temperatura/../../freeRTOS/include/mpu_wrappers.h  \
+ custom/Temperatura/../../freeRTOS/include/semphr.h  \
+ custom/Temperatura/../../freeRTOS/include/queue.h  \
+ custom/Temperatura/../../mcc_generated_files/adc1.h  \
+ custom/Temperatura/../../mcc_generated_files/pin_manager.h  \
+ custom/Temperatura/temperatura.h  \
+ custom/Temperatura/../Dispositivo/dispositivo.h  \
+ custom/Temperatura/../GPS/GPS.h  \
+custom/Temperatura/../LEDsRGB/WS2812.h  \
+ custom/Temperatura/../SIM808/SIM808.h  \
+ custom/Temperatura/../SIM808/../../freeRTOS/include/FreeRTOS.h  \
+ custom/Temperatura/../SIM808/../../freeRTOS/include/semphr.h  \
+ custom/Temperatura/../SIM808/../../freeRTOS/include/task.h  \
+ custom/Temperatura/../SIM808/../../freeRTOS/include/list.h 

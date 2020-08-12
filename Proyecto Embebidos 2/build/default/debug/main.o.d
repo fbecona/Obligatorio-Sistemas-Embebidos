@@ -1,0 +1,20 @@
+build/default/debug/main.o:  \
+main.c  \
+freeRTOS/include/FreeRTOS.h  \
+ freeRTOS/include/../../FreeRTOSConfig.h  \
+freeRTOS/include/projdefs.h  \
+ freeRTOS/include/portable.h  \
+freeRTOS/include/deprecated_definitions.h  \
+ freeRTOS/portable/MPLAB/PIC32MM/portmacro.h  \
+ freeRTOS/include/mpu_wrappers.h  \
+freeRTOS/include/task.h  \
+ freeRTOS/include/list.h  \
+mcc_generated_files/system.h  \
+custom/USB/USB.h  \
+ custom/SIM808/SIM808.h  \
+custom/SIM808/../../freeRTOS/include/FreeRTOS.h  \
+ custom/SIM808/../../freeRTOS/include/semphr.h  \
+ custom/SIM808/../../freeRTOS/include/queue.h  \
+ custom/SIM808/../../freeRTOS/include/task.h  \
+custom/UI/UI.h  \
+ custom/Temperatura/temperatura.h 

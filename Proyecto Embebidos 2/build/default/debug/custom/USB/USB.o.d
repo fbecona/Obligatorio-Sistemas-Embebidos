@@ -1,0 +1,22 @@
+build/default/debug/custom/USB/USB.o:  \
+custom/USB/USB.c  \
+custom/USB/USB.h  \
+ custom/USB/../../mcc_generated_files/usb/usb.h  \
+ custom/USB/../../mcc_generated_files/usb/usb_device_config.h  \
+ custom/USB/../../mcc_generated_files/usb/usb_common.h  \
+ custom/USB/../../mcc_generated_files/usb/usb_ch9.h  \
+ custom/USB/../../mcc_generated_files/usb/usb_device.h  \
+ custom/USB/../../mcc_generated_files/usb/usb_hal.h  \
+ custom/USB/../../mcc_generated_files/usb/usb_hal_pic32mm.h  \
+ custom/USB/../../mcc_generated_files/usb/usb_device_cdc.h  \
+ custom/USB/../../mcc_generated_files/usb/usb.h  \
+ custom/USB/../../mcc_generated_files/pin_manager.h  \
+ custom/USB/../../freeRTOS/include/FreeRTOS.h  \
+ custom/USB/../../freeRTOS/include/../../FreeRTOSConfig.h  \
+ custom/USB/../../freeRTOS/include/projdefs.h  \
+ custom/USB/../../freeRTOS/include/portable.h  \
+ custom/USB/../../freeRTOS/include/deprecated_definitions.h  \
+ freeRTOS/portable/MPLAB/PIC32MM/portmacro.h  \
+ custom/USB/../../freeRTOS/include/mpu_wrappers.h  \
+ custom/USB/../../freeRTOS/include/semphr.h  \
+ custom/USB/../../freeRTOS/include/queue.h 
